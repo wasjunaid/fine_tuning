@@ -1,0 +1,14 @@
+huggingface_tokenizers_cache
+_unsloth_temporary_saved_buffers
+unsloth_compiled_cache
+
+
+cpt_sec_training_args           # training arguments for cpt tuning on SEC filings domain
+cpt_sec_mixed_training_args     # training arguments for cpt tuning on SEC filings domain
+cpt_sec_adapter                 # LoRA adapter for SEC filings domain
+cpt_merged                      # complete model (base + LoRA adapter combined)
+
+
+sft_financial_qa_training_args  # training arguments for financial QA domain
+sft_financial_qa_adapter        # LoRA adapter for financial QA domain
+sft_financial_qa_merged         # complete model (base + LoRA adapter combined)
